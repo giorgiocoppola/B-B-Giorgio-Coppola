@@ -1,0 +1,11 @@
+.navbar-brand {
+
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.list {
+
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;
+}
