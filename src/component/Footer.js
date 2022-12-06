@@ -4,10 +4,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className='footer text-center bg-dark text-white p-3 fs-5' >
-        B & B Giorgio Coppola <br />
-        Viale Atlantide, 6 - Statte (TA) <br />
-        3342350701 <br />
-        giorgiocoppola12@gmail.com
+        © Copyright 2022 B & B Le Cerase 
     </div>
   )
 }

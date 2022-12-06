@@ -1,23 +1,20 @@
-main {
+.home-principale {
     position: relative;  
-    background-color: rgb(47, 107, 156);
-    /* background-image: url("image.jpg"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: contain; */
-    height: 100vh; /*inserisci un calc per tener conto della */
+    background-image: url("image.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 900px; /*inserisci un calc per tener conto della */
     width: 100%;
   }
   
   .title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 50px;
-    /* transform: translate(10px, 300px); */
+  
+   
+    font-size: 100px;
+    transform: translate(10px, 140px); 
     font-family: 'Playfair Display', serif;
     font-family: 'Tiro Tamil', serif;
-  text-align: center;
+    text-align: center;
 }
 
   .overlay {  
@@ -30,6 +27,12 @@ main {
     width: 100%;
     height: 100%;
   }
+
+  .button-contatti {
+
+       transform: translate(0,200px);
+  }
+
    h1 {
     z-index: 20;
     color: white;
