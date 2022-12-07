@@ -14,7 +14,7 @@ function Home() {
           <h1>
             <h1 className="title ">B & B</h1>
             <h1 className="title">Le Cerase</h1>
-            <button className="button-contatti border-success bg-success text-white p-2"><Link style={{textDecoration:'none',color:'white'}} to='/contatti'>Contatti</Link></button>
+            <button className="button-contatti border-success bg-success text-white p-3"><Link style={{textDecoration:'none',color:'white'}} to='/prenotazioni'>Prenotazioni</Link></button>
             
           </h1>
         </div>

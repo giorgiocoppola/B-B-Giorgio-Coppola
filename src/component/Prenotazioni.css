@@ -1,0 +1,18 @@
+.prenotazioni-principale {
+
+    background-color: brown;
+    height:600px;
+    overflow: auto;
+    
+}
+
+.prenotazioni-title {
+
+    font-family: 'Playfair Display', serif;
+    font-family: 'Tiro Tamil', serif;
+}
+
+.cont {
+
+    border: 2px solid black;
+}
