@@ -81,7 +81,9 @@ function Prenotazioni() {
           <main className='prenotazioni-principale'>
             <h1 className='prenotazioni-title text-center'>Prenotazioni</h1>
                
-                 <form>
+               <form>
+
+              
                    <label htmlFor='check-in' className='text-white fs-4 ms-3'>Check-in:</label>
                    <input type="date" className='ms-4' id="check-in" value={checkin} onChange={ (e) => setCheckin(e.target.value)}></input>
                    <label htmlFor='check-out' className='text-white fs-4 ms-3'>Check-out:</label>
@@ -92,7 +94,9 @@ function Prenotazioni() {
                    <span className='m-2 fs-3 text-white'>{count2}</span>
                    <button className='btn btn-info ps-3 pe-3 ms-3 mb-2 fs-4 text-white' onClick={handleDelete}>Prenota</button>
             
-                 </form>
+              </form>
+               
+                 
                    <div className='text-white fs-4 ms-3 mt-3'>Adulti: <button className='btn btn-success rounded-circle border-dark fs-5' onClick={incrementa}>+</button><span className='cont m-2 p-2 dark-border bg-white text-dark '>{count}</span><button className='btn btn-success rounded-circle border-dark fs-5' onClick={decrementa}>-</button></div>
                    <div className='text-white fs-4 ms-3 mt-3'>Bambini: <button className='btn btn-success rounded-circle border-dark fs-5'  onClick={incrementa2}>+</button><span className='cont m-2 p-2 bg-white  text-dark '>{count2}</span><button className='btn btn-success rounded-circle border-dark fs-5' onClick={decrementa2}>-</button></div>
                    
